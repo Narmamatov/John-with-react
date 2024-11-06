@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+nav {
+  margin-right: 150px;
+  display: flex;
+  gap: 30px;
+}
+nav a {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: black;
+  text-decoration: none;
+}
+nav a:hover {
+  transform: scale(1.1);
+  transition: 0.1s ease-in-out;
+}
+footer {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+footer span {
+  display: flex;
+  gap: 40px;
+  font-size: 35px;
+}
+footer a {
+  color: black;
+  margin: 20px 0 40px 0;
+  font-size: 18px;
+  text-decoration: none;
+}
+section {
+  min-height: 60vh;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 430px;
+  margin-top: 100px;
+}
+.about .info {
+  width: 450px;
+}
+.info h1 {
+  font-size: clamp(24px, 4vw, 50px);
+  font-family: sans-serif;
+}
+.info p {
+  font-family: sans-serif;
+  margin: 30px 0;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+.recent {
+  background-color: #edf7fa;
+  padding: 40px 0;
+}
+.container-recent {
+  width: 60%;
+  margin: auto;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.info button {
+  color: white;
+  background-color: #ff6464;
+  width: 220px;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 230px;
+  background-color: white;
+  padding: 20px;
+  gap: 20px;
+}
+.left h1,
+.right h1 {
+  font-size: 30px;
+}
+.left h2,
+.right h2 {
+  font-weight: 300;
+}
+.left p,
+.right p {
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.container-works {
+  width: 60%;
+  margin: auto;
+}
+.work-box {
+  margin: 30px 0;
+  display: flex;
+  gap: 30px;
+  border-bottom: 2px solid #00000037;
+}
+.work-box .info h1 {
+  font-size: clamp(20px, 5vw, 30px);
+}
+.year {
+  margin: 15px 0 0 0;
+  display: flex;
+  gap: 30px;
+}
+.work-box .info .year h1 {
+  background-color: #142850;
+  color: white;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+.work-box .info .year h2 {
+  color: rgba(0, 0, 0, 0.476);
+}
+.work-box .info {
+  max-width: 600px;
+}
